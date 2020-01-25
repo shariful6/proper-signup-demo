@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#03A9F4"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/emailETID"
+        android:layout_width="0dp"
+        android:layout_height="40sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="15dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Email"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/passwordETID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordETID"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="17dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Password"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/signUpBtnID"
+        app:layout_constraintEnd_toEndOf="@+id/emailETID"
+        app:layout_constraintStart_toStartOf="@+id/emailETID"
+        app:layout_constraintTop_toBottomOf="@+id/emailETID" />
+
+    <Button
+        android:id="@+id/signUpBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/loginBtnID"
+        app:layout_constraintEnd_toEndOf="@+id/passwordETID"
+        app:layout_constraintStart_toStartOf="@+id/passwordETID"
+        app:layout_constraintTop_toBottomOf="@+id/passwordETID" />
+
+    <Button
+        android:id="@+id/loginBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/forgetPassBtnID"
+        app:layout_constraintEnd_toEndOf="@+id/signUpBtnID"
+        app:layout_constraintStart_toStartOf="@+id/signUpBtnID"
+        app:layout_constraintTop_toBottomOf="@+id/signUpBtnID" />
+
+    <Button
+        android:id="@+id/forgetPassBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/loginBtnID"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/loginBtnID"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtnID" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

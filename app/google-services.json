@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "223220525248",
+    "firebase_url": "https://proper-signup.firebaseio.com",
+    "project_id": "proper-signup",
+    "storage_bucket": "proper-signup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223220525248:android:7d00a7f2f859040e6f2525",
+        "android_client_info": {
+          "package_name": "com.shariful.propersignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223220525248-6raektlc389n7058bmm6bpshcshj59k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shariful.propersignup",
+            "certificate_hash": "b6c6c7efc6d3bf48374503e5397b73491ad0f889"
+          }
+        },
+        {
+          "client_id": "223220525248-ep6q1s9tvhgbmuulehvmg4irnqujh826.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDByVTkf-TuSFrPf-lmpEQuu0AKmwVQFZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223220525248-ep6q1s9tvhgbmuulehvmg4irnqujh826.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
